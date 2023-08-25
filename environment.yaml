@@ -1,0 +1,11 @@
+name: human_emotion_classifier
+channels:
+  - defaults
+  - fastai
+  - conda-forge
+dependencies:
+  - voila
+  - fastai>=2
+  - pillow==9.4.0
+  - packaging
+  - ipywidgets==7.5.1
